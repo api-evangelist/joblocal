@@ -1,0 +1,20 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.joblocal.de
+host: https://www.joblocal.de
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  No /.well-known discovery documents are published on the Joblocal host. The
+  developer.joblocal.de subdomain returns HTTP 403 (no public docs); docs. and
+  api. subdomains do not resolve/connect. No public OpenAPI, llms.txt, or
+  machine-readable API artifacts were found.

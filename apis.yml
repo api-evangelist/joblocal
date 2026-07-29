@@ -1,7 +1,16 @@
 aid: joblocal
 name: Joblocal
-description: Joblocal is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Joblocal GmbH is a Munich-based German recruiting technology company and a
+  part of the Funke Mediengruppe. With more than fifteen years of experience it
+  operates a network of 41 regional job portals across Germany and, together
+  with the Funke network, runs data-driven, hyper-regional recruiting campaigns
+  tailored to position, location and budget for over 1,000 client companies.
+  Its "Talent.KI" product applies artificial intelligence to candidate sourcing
+  and regional labor-market analysis, surfacing employers where job seekers
+  actually search. Joblocal was surfaced as a portfolio company of Speedinvest
+  and added to the API Evangelist network. It publishes no public developer
+  portal, API, or machine-readable API artifacts at this time.
 url: https://raw.githubusercontent.com/api-evangelist/joblocal/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +18,51 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+image: https://www.joblocal.de/icon.png
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Recruiting
+- Jobs
+- HR Technology
+- Job Portal
+- Talent Acquisition
+- Artificial Intelligence
+- Labor Market
+- Employment
+- Germany
 apis: []
+common:
+- type: DomainSecurity
+  url: security/joblocal-domain-security.yml
+- type: Website
+  url: https://www.joblocal.de
+- type: TermsOfService
+  url: https://www.joblocal.de/agb
+- type: PrivacyPolicy
+  url: https://www.joblocal.de/datenschutzerklaerung
+- type: Support
+  url: https://www.joblocal.de/kontakt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
